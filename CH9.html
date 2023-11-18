@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-9</title>
+    <link rel="icon" href="html.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+<body>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+   <form action="http://httpbin.org/get" method="get">
+    <p>
+        <label for="first name">First Name</label>
+        <input type="text" name="first name"
+        id="first name" placeholder="First Name"
+        autocomplete="on" required autofocus>
+    </p>
+    <p>
+        <label for="last name">last Name</label>
+        <input type="text" name="last name"
+        id="last name" placeholder="last Name"
+        autocomplete="on" required autofocus>
+    </p>
+        
+         <p>
+            <label for="password">password</label>
+            <input type="password" name="password"
+            id="password" placeholder="Hide" required>
+
+         </p>
+             
+             
+                <p>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone"
+                    id="phone" placeholder="000-111-222-333-000"
+                    pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                </p>
+                    
+                    <p>
+                        <label for="decade">Date Of  Birth:</label>
+                        <input type="number" name="decade"
+                        id="decade" min="1000" max="3000"
+                        step="05" placeholder="year">
+                    </p>
+                       <p>
+                        <table>
+                            <tr>
+                                <th>NAME</th>
+                                <th>ROLL</th>
+                            </tr>
+                            <tr>
+                            <td>Al Amin</td>
+                            <td>O1</td>
+                             </tr>
+                             <tr>
+                                <td>Toa</td>
+                                <td>12</td>
+                             </tr>
+
+                        </table>
+                       </p>
+
+
+
+                           <p>
+                            <label for="coffe">Favorite Coffe</label>
+                            <select name="coffe" id="coffe">
+                               <optgroup label="Coffes">
+                                <option value="regular coffe">Regular Coffe</option>
+                               <option value="iced coffe">Iced Coffe</option>
+                               <option value="hot coffe">Hot Coffe</option>
+                               <option value="milk coffe">Milk Coffe</option>
+                              </optgroup>
+                              <optgroup label="Soft Drinks">
+                               <option value="7-UP">7-UP</option>
+                               <option value="coca-cola">Coca-Cola</option>
+                               <option value="pepsi">Pepsi</option>
+                               <option value="speed">Speed</option>
+                               <option value="tango">Tango</option>
+                               <option value="tiger">Tiger</option>
+                               <option value="mojo">Mojo</option>
+                             </optgroup>  
+                            </select>
+                                  <p>
+                                    <label for="Favorite Game">Favorite Game</label>
+                                    <input type="text" name="Favorite Game"
+                                    id="Favorite Game" list="Favorite Game list">
+                                    <datalist id="Favorite Game list">
+                                        <option value="Cricket">
+                                        <option value="Football">
+                                        <option value="Kabaddi">
+                                        <option value="Free Fire">
+                                        <option value="Other">10+</option>
+                                    </datalist>
+                                  </p>
+
+                                     <fieldset>
+                                 
+                                        <legend>What is your Favorite Food?</legend>
+
+                                        <p>
+                                            <input type="radio" name="food" id="Biryani" value="Biryani">
+                                            <label for="Biryani">Biryani</label>
+                                        </p>
+                                          
+                                        <p>
+                                            <input type="radio" name="food" id="Kichuri" value="Kichuri">
+                                            <label for="Kichuri">Kichuri</label>
+                                        </p>
+                                            
+                                        <p>
+                                            <input type="radio" name="food" id="Other" value="Other">
+                                            <label for="Other">Other</label>
+                                        </p>                                                                          
+
+                                    </fieldset>
+                                         
+                                     
+                                    <fieldset>
+                                 
+                                        <legend>What is your Favorite Game?</legend>
+
+                                        <p>
+                                            <input type="checkbox" name="food" id="Free Fire" value="Free Fire">
+                                            <label for="Free Fire">Free Fire</label>
+                                        </p>
+                                          
+                                        <p>
+                                            <input type="checkbox" name="food" id="Cricket" value="Cricket">
+                                            <label for="Cricket">Cricket</label>
+                                        </p>
+                                            
+                                        <p>
+                                            <input type="checkbox" name="food" id="Other" value="Other">
+                                            <label for="Other">Other</label>
+                                        </p>                                                                          
+
+                                    </fieldset>
+
+
+
+
+                                              <p>
+                                                <fieldset>
+
+                                                    <legend>Sent Me Notes</legend>
+
+                                                    <label for="Massage">Your Massage</label>
+                                                    <br>
+                                                    <textarea name="Massage" id="Massage"
+                                                    cols="20" rows="27"
+                                                    placeholder="Type your Notes here"></textarea>
+
+                                                </fieldset>
+                                              </p>
+                                                              
+                                                          
+                                              <p>
+                                                <fieldset>
+
+                                                    <legend>Type Your Email Id</legend>
+
+                                                    <label for="Email">Email id?</label>
+                                                    <br>
+                                                    <textarea name="Email" id="Email"
+                                                    cols="25" role="15"
+                                                    placeholder="Id"></textarea>
+
+                                                </fieldset>
+                                              </p>
+                                              <br>
+                                              <button type="submit">Submit</button>
+                                              <button type="reset">Reset</button>
+                                              <button type="submit" formaction="http://httpbin.org./post"                                          
+                                                formmethod="post">Post</button>
+                                                 <br><br><br><br><br><br><br><br><br><br>
+
+                                                 <hr>
+                                                 <hr>
+                                                 <hr>
+                                                 <hr>
+                                                 <hr>
+                                                 <hr>
+                                                 <hr>
+                                                 <hr>
+                                                 <hr>
+                                                 <hr>
+                                                 <hr>
+                                                 <hr>
+
+
+                                              
+                                                 
+                                        
+                                            
+
+
+
+
+
+                                     
+
+                        
+                           
+           
+
+   </form>
+</body>
+</html>
